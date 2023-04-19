@@ -1,0 +1,324 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:09.380
+(Music)
+
+2
+00:00:09.380 --> 00:00:12.130
+Welcome to GitHub Branches!
+
+3
+00:00:12.130 --> 00:00:14.870
+After watching this video, you will be able to:
+
+4
+00:00:14.870 --> 00:00:17.910
+Explain the purpose of branches and
+
+5
+00:00:17.910 --> 00:00:21.670
+describe how to merge changes into branches.
+
+6
+00:00:21.670 --> 00:00:25.050
+All files in GitHub are stored on a branch.
+
+7
+00:00:25.050 --> 00:00:30.660
+The master branch is definitive.
+It stores the deployable version of your code.
+
+8
+00:00:30.660 --> 00:00:36.980
+The master branch is created by default, however, you can use any branch as the main, finished,
+
+9
+00:00:36.980 --> 00:00:38.980
+deployable version of the code.
+
+10
+00:00:38.980 --> 00:00:44.330
+When you plan to change things, you create a new branch and give it a descriptive name.
+
+11
+00:00:44.330 --> 00:00:48.550
+The new branch starts as an exact copy of the original branch.
+
+12
+00:00:48.550 --> 00:00:53.420
+As you make changes, the branch that you created holds the changed code.
+
+13
+00:00:53.420 --> 00:00:59.740
+To create a new branch, click drop-down branch: master
+
+14
+00:00:59.740 --> 00:01:05.650
+Add new branch name into new branch text and select Create branch.
+
+15
+00:01:05.650 --> 00:01:10.670
+GitHub branches can be very complex for large software projects.
+
+16
+00:01:10.670 --> 00:01:16.200
+For a simple project, such as the ones we are exploring, consider the following:
+
+17
+00:01:16.200 --> 00:01:19.750
+Start with a common base, the initial source for this project.
+
+18
+00:01:19.750 --> 00:01:24.280
+At one point, the code is branched while new features are developed.
+
+19
+00:01:24.280 --> 00:01:28.350
+In this example, both branches are undergoing changes.
+
+20
+00:01:28.350 --> 00:01:33.360
+When the two streams of work are ready to merge, each branch’s code is identified
+
+21
+00:01:33.360 --> 00:01:34.610
+as a tip.
+
+22
+00:01:34.610 --> 00:01:39.920
+and the two tips are merged into a third, combined branch.
+
+23
+00:01:39.920 --> 00:01:45.420
+Developers work on source files in a branch.
+Since some projects take a while, the source
+
+24
+00:01:45.420 --> 00:01:47.759
+doesn’t make sense right away.
+
+25
+00:01:47.759 --> 00:01:50.350
+To change the contents of a file:
+
+26
+00:01:50.350 --> 00:01:51.439
+Select the file.
+
+27
+00:01:51.439 --> 00:01:53.350
+Click the pencil icon.
+
+28
+00:01:53.350 --> 00:01:54.810
+Make the changes.
+
+29
+00:01:54.810 --> 00:01:56.329
+Commit the changes.
+
+30
+00:01:56.329 --> 00:02:00.619
+When the developer has completed their assigned work, to save their changes, they commit the
+
+31
+00:02:00.619 --> 00:02:02.039
+code.
+
+32
+00:02:02.039 --> 00:02:06.729
+Commit indicates that the developer is convinced that the code represents a stable platform
+
+33
+00:02:06.729 --> 00:02:10.599
+for the feature or set of features being developed.
+
+34
+00:02:10.599 --> 00:02:16.069
+When a developer commits changed source to their path, they are required to write a comment
+
+35
+00:02:16.069 --> 00:02:18.220
+that describes the changes.
+
+36
+00:02:18.220 --> 00:02:21.190
+The comment should be meaningful and descriptive.
+
+37
+00:02:21.190 --> 00:02:26.330
+The developer can choose to commit to the current branch or create a new branch.
+
+38
+00:02:26.330 --> 00:02:27.390
+Some best practices :
+
+39
+00:02:27.390 --> 00:02:30.700
+Don’t end the commit message with a period.
+
+40
+00:02:30.700 --> 00:02:37.170
+Keep commit messages under 50 characters – use the extended window for the details.
+
+41
+00:02:37.170 --> 00:02:40.750
+Always write in an “active” voice.
+
+42
+00:02:40.750 --> 00:02:46.110
+Pull is used to initiate the merging of branches in a way to capture changes.
+
+43
+00:02:46.110 --> 00:02:51.970
+A pull request makes the proposed (committed) changes available for others to review and
+
+44
+00:02:51.970 --> 00:02:52.970
+use.
+
+45
+00:02:52.970 --> 00:02:57.190
+A pull can follow any commits, even if code is unfinished.
+
+46
+00:02:57.190 --> 00:03:02.930
+A pull requires a user to approve the changes.
+This can be the author of the change or it
+
+47
+00:03:02.930 --> 00:03:04.900
+can be assigned within the team.
+
+48
+00:03:04.900 --> 00:03:10.440
+Note that GitHub automatically makes a pull request on your behalf if you make a change
+
+49
+00:03:10.440 --> 00:03:13.180
+on a branch that you do not own.
+
+50
+00:03:13.180 --> 00:03:18.530
+Since the log files are immutable, it is always possible to find the person who approved the
+
+51
+00:03:18.530 --> 00:03:21.650
+merge of the change.
+
+52
+00:03:21.650 --> 00:03:23.980
+To open a new pull request:
+
+53
+00:03:23.980 --> 00:03:28.330
+Click Pull request and select New pull request.
+
+54
+00:03:28.330 --> 00:03:30.500
+Select the new branch from the compare box.
+
+55
+00:03:30.500 --> 00:03:33.140
+Scroll down to view the changes.
+
+56
+00:03:33.140 --> 00:03:36.440
+Confirm that the changes are what you want to assess.
+
+57
+00:03:36.440 --> 00:03:39.320
+Add a title and description to the request.
+
+58
+00:03:39.320 --> 00:03:42.290
+Click Create pull request.
+
+59
+00:03:42.290 --> 00:03:48.450
+The intent of Git repositories is for the master branch to be the only deployed code.
+
+60
+00:03:48.450 --> 00:03:53.210
+Developers can change source files in a branch but the changes are not released until.
+
+61
+00:03:53.210 --> 00:03:54.680
+They are committed.
+
+62
+00:03:54.680 --> 00:03:56.490
+A pull command is issued.
+
+63
+00:03:56.490 --> 00:03:59.040
+The code is reviewed and approved.
+
+64
+00:03:59.040 --> 00:04:03.650
+The approved code is merged back into the master code.
+
+65
+00:04:03.650 --> 00:04:07.330
+To merge a committed code change into your master code:
+
+66
+00:04:07.330 --> 00:04:09.570
+Click Merge pull request.
+
+67
+00:04:09.570 --> 00:04:11.290
+Click Confirm merge.
+
+68
+00:04:11.290 --> 00:04:16.100
+When all changes for a branch are complete, that branch is considered obsolete and it
+
+69
+00:04:16.100 --> 00:04:18.780
+should be deleted.
+
+70
+00:04:18.780 --> 00:04:20.660
+In this video, you learned:
+
+71
+00:04:20.660 --> 00:04:24.040
+All files in GitHub exist on a branch.
+
+72
+00:04:24.040 --> 00:04:29.220
+The Master Branch contains the finished, deployable version of the code.
+
+73
+00:04:29.220 --> 00:04:32.410
+Create new branches when you need to change the code.
+
+74
+00:04:32.410 --> 00:04:36.940
+The new branch starts as an exact copy of the original branch.
+
+75
+00:04:36.940 --> 00:04:41.720
+As you make changes, the branch that you created holds the changed code.
+
+76
+00:04:41.720 --> 00:04:46.600
+More than one branch can be undergoing changes at the same time.
+
+77
+00:04:46.600 --> 00:04:49.090
+Saved changes are called commits.
+
+78
+00:04:49.090 --> 00:04:55.210
+Pull requests enables other users to review and use the proposed changes (committed).
+
+79
+00:04:55.210 --> 00:05:00.370
+When you are ready to merge the changed code into the master branch, you merge the committed
+
+80
+00:05:00.370 --> 00:05:02.820
+code changes into your master code.
